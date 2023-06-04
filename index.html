@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ミュージックプレーヤー</title>
+    <link rel="stylesheet" href="musicplayer.css">
+  </head>
+  <body>
+    <div class="appframe">
+    <h1>ミュージックプレーヤー</h1>
+    <img src="停止.png" alt="再生状態を表す画像">
+    <audio src="Official髭男dism_パラボラ.mp3" controls></audio>
+    <p>聞きたい曲を選んでね<a id="random" href="#">ランダム</a></p>
+    <ul>
+      <li data-file="Official髭男dism_パラボラ.mp3" class="active">Official髭男dism_パラボラ.mp3</li>
+      <li data-file="Saucy Dog_紫苑.mp3">Saucy Dog_紫苑.mp3</li>
+      <li data-file="bgm3.mp3">ミュージック3</li>
+    </ul>
+    <script src="musicplayer.js" charset="utf-8"></script>
+    </div>
+  </body>
+</html>
